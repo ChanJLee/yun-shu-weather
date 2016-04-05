@@ -1,0 +1,42 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">0dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="recycler_margin">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="head_image_height">230dp</dimen>
+    <dimen name="cardview_margin">4dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+
+    <dimen name="poweredSize">11sp</dimen>
+    <dimen name="poweredPadding">15dp</dimen>
+    <dimen name="splashSize">25sp</dimen>
+    <dimen name="initMessageSize">13sp</dimen>
+
+    <dimen name="item_bottom">12sp</dimen>
+    <dimen name="item_time">11sp</dimen>
+    <dimen name="bottom_text_margin_right">4dp</dimen>
+
+    <dimen name="item_text_normal">12sp</dimen>
+
+    <dimen name="suggestion_left_margin">10dp</dimen>
+
+    <dimen name="normal_item_height">100dp</dimen>
+    <dimen name="item_spinner_width">180dp</dimen>
+    <dimen name="item_setting_height">45dp</dimen>
+    <dimen name="setting_h_margin">8dp</dimen>
+    <dimen name="setting_v_margin">3dp</dimen>
+    <dimen name="clear_text_size">11sp</dimen>
+    <dimen name="setting_title_size">10sp</dimen>
+
+    <dimen name="setting_title_margin">10dp</dimen>
+    <dimen name="dialog_w">240dp</dimen>
+    <dimen name="normal_padding">5dp</dimen>
+</resources>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">云舒天气</string>
+    <string name="app_version">1.0</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="key">1da7ca9e193648d4802818023f499454</string>
+    <string name="title_activity_weather_forcast">WeatherForcastActivity</string>
+    <string name="splash">风卷云舒恋着帆</string>
+
+    <string name="power">powered by chan</string>
+
+    <string name="initMessage">初次使用需要加载网络数据 请保持网络畅通</string>
+    <string name="temp_word">℃</string>
+    <string name="pm25">PM2.5：</string>
+    <string name="quality">空气质量：</string>
+    <string name="pm25_unit">(ug/m³)</string>
+
+    <string name="ultraviolet_label">紫外线：</string>
+    <string name="travel_title">旅行建议</string>
+    <string name="flu_title">健康贴士</string>
+    <string name="sport_title">运动建议</string>
+
+    <string name="clean_car_label">洗车指数：</string>
+    <string name="travel_label">旅行指数：</string>
+    <string name="cold_label">感冒指数：</string>
+    <string name="sport_label">运动指数：</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="province_label">省：</string>
+    <string name="city_label">市：</string>
+
+    <string name="accept_label">确认</string>
+    <string name="cancel_label">取消</string>
+    <string name="local_label">位置</string>
+
+    <string name="data_label">数据</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="nothing">未知</string>
+
+    <string name="version_label">版本号</string>
+    <string name="author_label">作者</string>
+    <string name="about_label">关于</string>
+    <string name="about_us">关于我们</string>
+    <string name="save_label">保存</string>
+
+     <string name="about">
+        1：本软件属于测试版本，不代表最终版本。且软件的获取，使用都必须在作者-李嘉诚的书面许可下进行。\n
+        2：如果您从作者授权的第三方获取本软件或与本软件名称相同（以软件包名及其签名文件区分）的安装程序，作者无法保证该软件能够正常使用，并对因此给你造成的损失不予负责。\n
+        3：李嘉诚是本软件的知识产权权利人。本软件的一切著作权，专利权，商业机密等知识产权，以及与本软件相关的所有信息内容（包括但不仅限于，文字，软件，音频，视频，图表，界面设计，版面框架，相关数据，电子文档等）
+        均受中华人民共和国法律法规和相应国际条约保护。李嘉诚享有以上只是产权，但相关权利人依照法律规定应享有的权利除外。\n
+        4：未经李嘉诚或相关权利人书面同意，你不得为任何商业或非商业目的的自行或者许可任何第三方实施，利用，转让上述知识产权。\n
+        5：软件不可避免的会有缺陷，如果你决定使用本软件，则默认容忍本软件的缺陷，并对软件缺陷造成后果不追究作者任何责任\n
+        6：如因本软件使用的第三方软件或者技术引发的任何纠纷，应由第三方负责解决，作者不承担任何责任。作者不对第三方软件或技术提供客服支持，若你需要获取支持，请于第三方联系
+    </string>
+
+    <string name="enounce">
+        除非获得作者的书面许可，你使用本软件过程中不得从事以下行为：\n
+        1：删除，修改本软件及其副本关于关于的描述\n
+        2：对本软件进行反向工程，反向汇编，反向编译，或者以其他方式尝试发现本软件的源代码。\n
+        3：对李嘉诚拥有的知识产权的内容进行使用，出租，出借，复制，修改，链接，转载，汇编，发表，出版，建立镜像站点等\n
+        4：自行或者授权他人，第三方软件对本软件及其组件，模块，数据进行干扰。\n
+        5：用户在与作者达成协议后，仅是获得软件的使用权，且该使用权仅属于与当初与作者达成协议的对方。任何在作者未授权的情况下，转让，买卖。\n
+        6：对本软件未经授权的拷贝，复制\n
+        7：其他未经作者明示授权的行为\n
+        如果您同意以上条款，那么在使用本软件的同时，默认以及与作者达成协议
+    </string>
+</resources>

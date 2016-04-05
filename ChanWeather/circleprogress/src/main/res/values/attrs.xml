@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressCircle">
+        <attr name="storkWidth" format="dimension"/>
+        <attr name="doneColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+    </declare-styleable>
+</resources>

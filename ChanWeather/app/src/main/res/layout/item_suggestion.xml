@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="@dimen/cardview_margin"
+                                    card_view:cardCornerRadius="3dp"
+                                    card_view:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@mipmap/icon_cloth"/>
+
+            <TextView
+                android:id="@+id/id_suggestion"
+                android:layout_width="100dp"
+                android:layout_marginLeft="@dimen/suggestion_left_margin"
+                android:layout_height="wrap_content"
+                android:textSize="10.5sp"
+                android:layout_gravity="center_vertical"/>
+
+
+            <TableLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="2dp"
+                android:stretchColumns="1">
+                <TableRow
+                    android:layout_margin="1dp">
+                    <TextView
+                        android:textSize="@dimen/item_text_normal"
+                        android:text="@string/clean_car_label"/>
+                    <TextView
+                        android:id="@+id/id_clean_car"
+                        android:textSize="@dimen/item_text_normal"
+                        />
+                </TableRow>
+                <View android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorGray"/>
+                <TableRow
+                    android:layout_margin="1dp">
+                    <TextView android:textSize="@dimen/item_text_normal"
+                        android:text="@string/travel_label"/>
+                    <TextView
+                        android:id="@+id/id_travel"
+                        android:textSize="@dimen/item_text_normal"/>
+                </TableRow>
+                <View android:layout_width="match_parent"
+                      android:layout_height="1dp"
+                      android:background="@color/colorGray"/>
+                <TableRow
+                    android:layout_margin="1dp">
+                    <TextView android:textSize="@dimen/item_text_normal"
+                        android:text="@string/cold_label"/>
+                    <TextView
+                        android:id="@+id/id_cold"
+                        android:textSize="@dimen/item_text_normal"/>
+                </TableRow>
+                <View android:layout_width="match_parent"
+                      android:layout_height="1dp"
+                      android:background="@color/colorGray"/>
+                <TableRow
+                    android:layout_margin="1dp">
+                    <TextView android:textSize="@dimen/item_text_normal"
+                        android:text="@string/sport_label"/>
+                    <TextView
+                        android:id="@+id/id_sport"
+                        android:textSize="@dimen/item_text_normal"/>
+                </TableRow>
+                <View android:layout_width="match_parent"
+                      android:layout_height="1dp"
+                      android:background="@color/colorGray"/>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <TextView
+                android:textColor="#BDBDBD"
+                android:textSize="@dimen/item_bottom"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="@dimen/bottom_text_margin_right"
+                android:layout_height="wrap_content"
+                android:text="@string/ultraviolet_label"/>
+
+            <TextView
+            android:id="@+id/id_ultraviolet_level"
+            android:textColor="#BDBDBD"
+            android:textSize="@dimen/item_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

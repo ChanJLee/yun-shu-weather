@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.impl.SplashActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:placeholderImage="@raw/splash3"
+        app:placeholderImageScaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash"
+        android:textColor="@color/white"
+        android:textSize="@dimen/splashSize"
+        android:layout_gravity="center"
+        android:id="@+id/id_words"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/poweredPadding"
+        android:text="@string/power"
+        android:textColor="@color/white"
+        android:textSize="@dimen/poweredSize"
+        android:layout_gravity="right|bottom"/>
+</FrameLayout>

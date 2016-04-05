@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="com_chan_progress_stoke">#ffffff</color>
+    <color name="com_chan_progress_done">#77df23</color>
+</resources>

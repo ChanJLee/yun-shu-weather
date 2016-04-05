@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2189b7</color>
+    <color name="colorPrimaryDark">#2a2a4f</color>
+    <color name="colorAccent">#28afed</color>
+
+    <color name="colorSunrise">#2191B6</color>
+    <color name="colorSunset">#2a2a4f</color>
+    <color name="colorSunsetLight">#3e3e54</color>
+    <color name="colorGray">#c4c3c3</color>
+    <color name="colorSplash">#00f8f9fa</color>
+
+    <color name="white">#fff</color>
+
+    <color name="colorSetting">#43aec6</color>
+    <color name="colorSettingTitle">#449ea3</color>
+    <color name="colorForecastNight">#473D62</color>
+    <color name="colorForecastDay">#94A598</color>
+
+    <color name="max">#e6e60f</color>
+    <color name="min">#91c439</color>
+    <color name="nothing">#00ffffff</color>
+    <color name="fill">#42ce5e</color>
+    <color name="colorLight">#b259e473</color>
+
+    <color name="about">#837581</color>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    xmlns:app="http://schemas.android.com/tools"
+                                    android:layout_margin="@dimen/cardview_margin"
+                                    card_view:cardCornerRadius="3dp"
+                                    card_view:cardElevation="2dp">
+    <RelativeLayout
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/id_weather_icon"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerVertical="true"
+            app:placeholderImage="@mipmap/weather_sun_day"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/item_time"
+            android:id="@+id/id_time"/>
+
+        <LinearLayout
+            android:id="@+id/linear_temp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_temp_flu"
+                android:layout_toLeftOf="@+id/temp_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"/>
+
+            <LinearLayout
+                android:id="@+id/temp_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="#BDBDBD"
+                    android:textSize="18sp"
+                    android:text="@string/temp_word"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linear_temp"
+            android:gravity="right"
+            android:layout_marginTop="24dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:id="@+id/id_detail"/>
+
+            <LinearLayout
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#BDBDBD"
+                    android:textSize="@dimen/item_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pm25"/>
+
+                <TextView
+                    android:id="@+id/id_pm"
+                    android:textColor="#BDBDBD"
+                    android:textSize="@dimen/item_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/bottom_text_margin_right"
+                    android:text="@string/nothing"
+                    />
+                <TextView
+                    android:textColor="#BDBDBD"
+                    android:textSize="@dimen/item_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pm25_unit"
+                    android:layout_marginRight="@dimen/bottom_text_margin_right"/>
+                <TextView
+                    android:textColor="#BDBDBD"
+                    android:textSize="@dimen/item_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quality"/>
+
+                <TextView
+                    android:id="@+id/id_quality"
+                    android:textColor="#BDBDBD"
+                    android:textSize="@dimen/item_bottom"
+                    android:text="@string/nothing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

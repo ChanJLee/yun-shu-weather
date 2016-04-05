@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="保存" android:id="@+id/id_save"
+          android:showAsAction="always"
+          android:icon="@drawable/ic_mode_edit_white_24dp"
+          android:orderInCategory="900"/>
+</menu>
